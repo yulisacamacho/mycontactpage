@@ -1,0 +1,150 @@
+/*This is my 201 Contact Web Page Project using Eric Meyer's reset at the top of my page -- your CSS starts on line 56 */
+
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/* ---------- This is the beginning of my 201 Contact Web Page Project ------------ */
+
+html, body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background-image: url("images/lilyofthevalley-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.center {
+    width: 40%;
+	min-width: 400px; /*-----this is for responsiveness ----*/
+	padding: 2%;
+    margin: 200px auto;
+ 	background: rgba(121, 151, 119, 0.55); /*this uses opacity of 55% for the background color*/
+	text-align: center;
+}
+
+   
+#logo {
+	width: 70%; /* ------this is for reponsiveness -----*/
+    margin-bottom: 16px;
+	text-align: center;
+}
+
+h1 {
+	/* <link rel="stylesheet" href="https://use.typekit.net/eqo6ywr.css"> */
+	font-family: "haboro-contrast-normal", sans-serif;
+	font-weight: 700;
+	font-style: italic;
+	font-size: 1.5em;
+    margin: 40px auto 10px auto;
+    color: #ffffff;
+}
+
+h2 {
+	/* <link rel="stylesheet" href="https://use.typekit.net/eqo6ywr.css"> */
+	font-family: "haboro-contrast-extended", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 1.2em;
+    line-height: 1.4;
+    color: #ffffff;
+    padding: 0px 0px;
+    margin: 18px auto 15px auto;
+}
+
+p {
+	/* <link rel="stylesheet" href="https://use.typekit.net/eqo6ywr.css"> */
+	font-family: "haboro-contrast-condensed", sans-serif;
+	font-weight: 400;
+	font-style: italic;
+	font-size: 1.0em;
+    line-height: 1.6;
+    color: #fff;
+}
+nav{
+	font-family: 'classico-urw', sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 1.2em;
+	width: 60%; /* ----this is for responsiveness ----*/ 
+	margin: 0 auto;
+	border-width: 3px 0;
+	text-align: center;
+	margin-top: 2em;
+}
+
+nav li{
+	display: inline;
+}
+
+nav a{
+	display: inline-block;
+	padding: 10px;
+}
+
+a{
+	color: #203318;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a:hover{
+	color: rgb(255, 255, 255);
+	background: rgb(145, 171, 138);
+}
+    
+    
+
