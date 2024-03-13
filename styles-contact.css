@@ -75,7 +75,6 @@ html, body {
  	background: rgba(121, 151, 119, 0.55); /*this uses opacity of 55% for the background color*/
 	text-align: center;
 }
-
    
 #logo {
 	width: 70%; /* ------this is for reponsiveness -----*/
@@ -101,7 +100,7 @@ h2 {
 	font-size: 1.2em;
     line-height: 1.4;
     color: #ffffff;
-    padding: 0px 0px;
+    padding: 10px 0px;
     margin: 18px auto 15px auto;
 }
 
@@ -110,7 +109,7 @@ p {
 	font-family: "haboro-contrast-condensed", sans-serif;
 	font-weight: 400;
 	font-style: italic;
-	font-size: 1.0em;
+	font-size: 1.1em;
     line-height: 1.6;
     color: #fff;
 }
@@ -145,6 +144,7 @@ a:hover{
 	color: rgb(255, 255, 255);
 	background: rgb(145, 171, 138);
 }
-    
+
+
     
 
