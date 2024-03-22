@@ -72,9 +72,11 @@ html, body {
 	min-width: 400px; /*-----this is for responsiveness ----*/
 	padding: 2%;
     margin: 200px auto;
- 	background: rgba(121, 151, 119, 0.55); /*this uses opacity of 55% for the background color*/
+ 	background: rgba(126, 163, 133, 0.497); /*this uses opacity of 55% for the background color*/
 	text-align: center;
+	
 }
+
    
 #logo {
 	width: 70%; /* ------this is for reponsiveness -----*/
@@ -84,7 +86,7 @@ html, body {
 
 h1 {
 	/* <link rel="stylesheet" href="https://use.typekit.net/eqo6ywr.css"> */
-	font-family: "haboro-contrast-normal", sans-serif;
+	font-family: "marigny", sans-serif;
 	font-weight: 700;
 	font-style: italic;
 	font-size: 1.5em;
@@ -94,7 +96,7 @@ h1 {
 
 h2 {
 	/* <link rel="stylesheet" href="https://use.typekit.net/eqo6ywr.css"> */
-	font-family: "haboro-contrast-extended", sans-serif;
+	font-family: "marigny", sans-serif;
 	font-weight: 400;
 	font-style: normal;
 	font-size: 1.2em;
@@ -106,7 +108,7 @@ h2 {
 
 p {
 	/* <link rel="stylesheet" href="https://use.typekit.net/eqo6ywr.css"> */
-	font-family: "haboro-contrast-condensed", sans-serif;
+	font-family: "marigny", sans-serif;
 	font-weight: 400;
 	font-style: italic;
 	font-size: 1.1em;
@@ -117,7 +119,7 @@ nav{
 	font-family: 'classico-urw', sans-serif;
 	font-weight: 700;
 	font-style: normal;
-	font-size: 1.2em;
+	font-size: 1.4em;
 	width: 60%; /* ----this is for responsiveness ----*/ 
 	margin: 0 auto;
 	border-width: 3px 0;
@@ -135,7 +137,7 @@ nav a{
 }
 
 a{
-	color: #203318;
+	color: #dae6d5;
 	text-decoration: none;
 	font-weight: bold;
 }
